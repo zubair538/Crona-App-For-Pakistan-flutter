@@ -13,10 +13,9 @@ class PakistanEntity with JsonConvert<PakistanEntity> {
 	DateTime get lastUpdatedAt{
 		return DateTime.parse(lastUpdate);
 	}
-  DateFormat  get date{
-		return '';
+
 	}
-}
+
 
 
 class PakistanConfirmed with JsonConvert<PakistanConfirmed> {
